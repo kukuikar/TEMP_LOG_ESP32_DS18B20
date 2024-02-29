@@ -40,7 +40,7 @@ void loop(void)
 
 // Based on the OneWire library example
 
-OneWire ds (18); // data wire connected to GPIO15
+OneWire ds (12); // data wire connected to GPIO15
 
 void setup(void)
 {
